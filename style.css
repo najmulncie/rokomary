@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif, 'SiyamRupali', sans-serif;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+
+.header_section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.logo{
+    float:left;
+    width: 150px;
+}
+.logo img{
+    width: 100px;
+}
+.seachbox{
+    float:left;
+}
+.seachbox input{
+    width: 540px;
+    padding: 14px;
+    font-size: 14px;
+    border: 1px solid #CED4DA;
+    border-bottom: 2px solid #F90;
+    border-radius: 5px 0px 0px 5px;
+}
+.seachbox i{
+    background-color: #0397D3;
+    padding: 8px 16px;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 17px;
+    padding-top: 13px;
+    border-radius: 0px 5px 5px 0px;
+}
+.carts{
+    float: left;
+    margin-left: 50px;
+}
+.carts i{
+    font-size: 35px;
+    padding: 8px 15px;
+}
+.signin{
+    float: left;
+    background-color: none;
+
+}
+.btn{
+    padding: 10px 18px;
+    font-size: 16px;
+    background: none;
+    border: 1px solid #6C757D;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+.btn:hover{
+    background: #33C24D;
+    color: #fff;
+}
+
+
+
+
+/* NAVIGATION SECTION START */
+.nav_section{
+    border-bottom: 1px solid #89C4F4;
+    overflow: hidden;
+}
+.menu ul{
+ margin-left: 50px;
+ margin-right: 50px;
+}
+.menu ul li{
+    float: left;
+    list-style-type: none;
+}
+.menu ul li a{
+    display: flex;
+    text-decoration: none;
+    padding: 9px 14px;
+    font-size: 18px;
+    color: #333333; 
+}
+
+.menu ul li:first-child{
+    border: 1px solid #89C4F4;
+    border-bottom: none;
+}
+.menu ul li a:hover{
+    border: 1px solid #89C4F4;
+    border-bottom: none;
+    color: #0397DD;
+}
+.menu ul li img{
+    width:20px;
+    vertical-align: middle;
+}
+
+
+/* NAVIGATION SECTION END */
+
+/* /* .submenu_section{
+    border-bottom: 2px solid #CECFD1;
+    overflow: hidden; 
+} */
+.submenu ul{
+} 
+.submenu ul li{
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+.submenu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 27px;
+    font-size: 14px;
+    color: #333333; 
+}
+
+.submenu ul li a:hover{
+    color: #0397DD;
+}
+.submenu ul li i{
+    font-size: 10px;
+    margin-left: 6px;
+}
+
+.submenu ul li ul{
+    position: absolute;
+    left:-9999px;
+    width: 100%;
+    background-color: white;
+}
+
+.submenu ul li:hover ul{
+   left: 0;
+}
